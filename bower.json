@@ -1,0 +1,22 @@
+{
+  "name": "angular-content-scroller",
+  "version": "1.0.0",
+  "main": "angular-content-scroller.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "package.json",
+    "src",
+    "gulpfile.js"
+  ],
+  "dependencies": {
+    "angular": "^1.2.0"
+  },
+  "devDependencies": {
+    "angular-mocks": ">=1.2.0",
+    "angular-ui-router": "~0.2.11",
+    "bootstrap-sass":">=3.3.0",
+    "Buttons": "2.0.0"
+  }
+}
