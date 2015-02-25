@@ -1,0 +1,169 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+
+$icon-font-path: "../vendor/bootstrap-sass/assets/fonts/bootstrap/";
+@import "../vendor/Buttons/scss/buttons";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+.hscroll-hdr{
+ h3{
+    color:#1B9AF7;
+  }
+}
+
+.vscroll-hdr{
+  h3{
+    color:#7B72E9;
+  }
+}
+
+
+.col-rsns-hrzntl-1n2{
+  @include make-xs-column(3);
+  @include make-sm-column(2);
+  @include make-md-column(2);
+  @include make-lg-column(2);
+
+}
+.col-rsns-hrzntl-8n10{
+  @include make-xs-column(6);
+  @include make-sm-column(8);
+  @include make-md-column(8);
+  @include make-lg-column(8);
+  @media (max-width: $screen-xs-max) {
+    padding-left: 0;
+    padding-right:0;
+  }
+}
+
+.col-rspns-10-offset-1{
+  @include make-xs-column(10);
+  @include make-xs-column-offset(1);
+  @include make-sm-column(10);
+  @include make-sm-column-offset(1);
+  @include make-md-column(10);
+  @include make-md-column-offset(1);
+  @include make-lg-column(10);
+  @include make-lg-column-offset(1);
+}
+
+.col-rspns-12{
+  @include make-xs-column(12);
+  @include make-sm-column(12);
+  @include make-md-column(12);
+  @include make-lg-column(12);
+}
+
+.col-left-vert-scroll{
+  @include make-xs-column(3);
+  @include make-xs-column-offset(2);
+  @include make-sm-column(2);
+  @include make-sm-column-offset(3);
+  @include make-md-column(2);
+  @include make-md-column-offset(3);
+  @include make-lg-column(2);
+  @include make-lg-column-offset(3);
+}
+.col-right-vert-scroll{
+  @include make-xs-column(3);
+  @include make-xs-column-offset(1);
+  @include make-sm-column(2);
+  @include make-sm-column-offset(3);
+  @include make-md-column(2);
+  @include make-md-column-offset(3);
+  @include make-lg-column(2);
+  @include make-lg-column-offset(3);
+}
+
+.col-rsns-hrzntl-1n2,
+.col-left-vert-scroll,
+.col-right-vert-scroll{
+  margin-top:10px;
+}
+
+/* vertical scroll */
+.scroll-vert-outter-container{
+  height: 300px;
+  min-height:100px;
+ }
+
+.scroll-vert-outter-container {
+  overflow: hidden;
+}
+.scroll-vert-inner-container{
+  width:130%;
+  height:98%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-vert-content{
+  padding-right:20%;
+  height:100%;
+  margin-bottom:5%;
+}
+
+/*horizontal scroll container */
+.scroll-hrzntl-outter-container{
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.scroll-hrzntl-inner-container::-webkit-scrollbar {
+  display: none;
+}
+.scroll-hrzntl-inner-container{
+  height:130%;
+  overflow-y:hidden;
+  overflow-x: auto;
+}
+
+.scroll-hrzntl-content{
+  white-space: nowrap;
+  padding-bottom:30%;
+  overflow:hidden;
+  li{
+    float:none;
+    margin-left:10px;
+    margin-right:10px;
+  }
+}
+.scroll-hrzntl-inner-container::-webkit-scrollbar {
+  display: none;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: relative;
+  padding-top:5px;
+  bottom: 0;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
