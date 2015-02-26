@@ -11,7 +11,6 @@ var wsScrollDefaultEasing = function (x) {
 (function() {
   'use strict';
 
-
   angular.module('wsContentScroller', [
       'common.services.ws.polyfill',
       'common.services.ws.debounce',

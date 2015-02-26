@@ -2,9 +2,9 @@
 
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 
-$icon-font-path: "../vendor/bootstrap-sass/assets/fonts/bootstrap/";
-@import "../vendor/Buttons/scss/buttons";
-@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap";
+$icon-font-path: "../src/vendor/bootstrap-sass/assets/fonts/bootstrap/";
+@import "../src/vendor/Buttons/scss/buttons";
+@import "../src/vendor/bootstrap-sass/assets/stylesheets/bootstrap";
 
 
 .hscroll-hdr{
