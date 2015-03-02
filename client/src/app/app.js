@@ -1,6 +1,6 @@
 
 var wsScrollDefaultEasing = function (x) {
-  'use strict';
+    'use strict';
 
   if(x < 0.5) {
     return Math.pow(x*2, 2)/2;
