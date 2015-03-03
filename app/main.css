@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+@import url("https:../assetsfonts.googleapis.com/css?family=Lato:300,400,700");
 /*! @license
 *
 * Buttons
@@ -9,7 +9,7 @@
 * you may not use this file except in compliance with the License.
 * You may obtain a copy of the License at
 *
-*        http://www.apache.org/licenses/LICENSE-2.0
+*        http:../assetswww.apache.org/licenses/LICENSE-2.0
 *
 * Unless required by applicable law or agreed to in writing, software
 * distributed under the License is distributed on an "AS IS" BASIS,
@@ -1504,7 +1504,7 @@ td,
 th {
   padding: 0; }
 
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+/*! Source: https:../assetsgithub.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
   *:before,
@@ -1577,8 +1577,8 @@ th {
     border: 1px solid #ddd !important; } }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("//assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("//assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("//assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("//assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("//assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("//assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../assetsassets/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("../assetsassets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../assetsassets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../assetsassets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../assetsassets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../assetsassets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 .glyphicon {
   position: relative;
   top: 1px;
